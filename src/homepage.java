@@ -14,6 +14,9 @@ public class homepage extends javax.swing.JFrame {
      */
     public homepage() {
         initComponents();
+       
+           setExtendedState(homepage.MAXIMIZED_BOTH);
+        show();
     }
 
     /**
@@ -74,6 +77,10 @@ public class homepage extends javax.swing.JFrame {
                 new homepage().setVisible(true);
             }
         });
+    }
+
+    private void setExtendedState() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
